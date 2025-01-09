@@ -276,4 +276,45 @@ Public Class Form1
         End If
 
     End Sub
+
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
+        Dim helpMessage As String = "Panduan Penggunaan Aplikasi:" & Environment.NewLine & Environment.NewLine &
+                                 "1. Menambahkan Data:" & Environment.NewLine &
+                                 "   - Isi semua kolom yang tersedia." & Environment.NewLine &
+                                 "   - Klik tombol 'Simpan' untuk menambahkan data." & Environment.NewLine & Environment.NewLine &
+                                 "2. Menghapus Data:" & Environment.NewLine &
+                                 "   - Klik tombol 'Bersih' untuk mengosongkan kolom." & Environment.NewLine &
+                                 "   - Pilih data yang ingin dihapus dari tabel." & Environment.NewLine &
+                                 "   - Data akan dihapus saat disimpan." & Environment.NewLine & Environment.NewLine &
+                                 "3. Memperbarui Data:" & Environment.NewLine &
+                                 "   - Ubah informasi di kolom yang diperlukan." & Environment.NewLine &
+                                 "   - Klik tombol 'Simpan' untuk menyimpan perubahan." & Environment.NewLine & Environment.NewLine &
+                                 "Shortcut Keyboard:" & Environment.NewLine &
+                                 "   - Ctrl + S: Menambahkan data" & Environment.NewLine &
+                                 "   - Ctrl + O: Keluar" & Environment.NewLine &
+                                 "   - Ctrl + C: Mengosongkan kolom" & Environment.NewLine &
+                                 "   - Ctrl + D: Mengganti tema" & Environment.NewLine &
+                                 "   - Ctrl + H: Menampilkan panduan ini" & Environment.NewLine & Environment.NewLine &
+                                 "©Copyright All Reserved 2023 By Alpian. Semua hak dilindungi." & Environment.NewLine
+
+        MessageBox.Show(helpMessage, "Panduan Penggunaan", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    End Sub
+
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        Dim feedbackFAQMessage As String = "Feedback dan FAQ:" & Environment.NewLine & Environment.NewLine &
+                                        "1. Apa itu aplikasi ini?" & Environment.NewLine &
+                                        "   - Aplikasi ini digunakan untuk mengelola data anggota." & Environment.NewLine & Environment.NewLine &
+                                        "2. Bagaimana cara menambahkan data?" & Environment.NewLine &
+                                        "   - Isi semua kolom yang tersedia dan klik tombol 'Simpan'." & Environment.NewLine & Environment.NewLine &
+                                        "3. Apakah saya bisa menghapus data?" & Environment.NewLine &
+                                        "   - Ya, pilih data yang ingin dihapus dan klik tombol 'Simpan'." & Environment.NewLine & Environment.NewLine &
+                                        "4. Di mana saya bisa melihat statistik?" & Environment.NewLine &
+                                        "   - Statistik dapat dilihat pada bagian laporan di aplikasi." & Environment.NewLine & Environment.NewLine &
+                                        "5. Bagaimana cara menghubungi dukungan?" & Environment.NewLine &
+                                        "   - Silakan kirim email ke support@contoh.com." & Environment.NewLine & Environment.NewLine &
+                                        "Feedback:" & Environment.NewLine &
+                                        "   - Kami sangat menghargai masukan Anda. Silakan beri tahu kami jika ada saran untuk perbaikan." & Environment.NewLine
+
+        MessageBox.Show(feedbackFAQMessage, "Feedback/FAQ", MessageBoxButtons.OK, MessageBoxIcon.Information)
+    End Sub
 End Class

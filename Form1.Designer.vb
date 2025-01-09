@@ -43,6 +43,8 @@ Partial Class Form1
         Button4 = New Button()
         Button3 = New Button()
         Button5 = New Button()
+        Button6 = New Button()
+        Button7 = New Button()
         CType(DataGridView1, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
@@ -225,11 +227,31 @@ Partial Class Form1
         Button5.Text = "DarkMode"
         Button5.UseVisualStyleBackColor = True
         ' 
+        ' Button6
+        ' 
+        Button6.Location = New Point(617, 529)
+        Button6.Name = "Button6"
+        Button6.Size = New Size(94, 29)
+        Button6.TabIndex = 23
+        Button6.Text = "Help"
+        Button6.UseVisualStyleBackColor = True
+        ' 
+        ' Button7
+        ' 
+        Button7.Location = New Point(733, 529)
+        Button7.Name = "Button7"
+        Button7.Size = New Size(128, 29)
+        Button7.TabIndex = 24
+        Button7.Text = "Feedback/FAQ"
+        Button7.UseVisualStyleBackColor = True
+        ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1402, 644)
+        Controls.Add(Button7)
+        Controls.Add(Button6)
         Controls.Add(Button5)
         Controls.Add(Button3)
         Controls.Add(Button4)
@@ -279,5 +301,7 @@ Partial Class Form1
     Friend WithEvents Button4 As Button
     Friend WithEvents Button3 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Button6 As Button
+    Friend WithEvents Button7 As Button
 
 End Class

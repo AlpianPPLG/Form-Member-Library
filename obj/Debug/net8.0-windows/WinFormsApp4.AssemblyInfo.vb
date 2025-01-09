@@ -16,7 +16,7 @@ Imports System.Reflection
 <Assembly: System.Reflection.AssemblyCompanyAttribute("WinFormsApp4"),  _
  Assembly: System.Reflection.AssemblyConfigurationAttribute("Debug"),  _
  Assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0"),  _
- Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0"),  _
+ Assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+97179b33df4240093dbdead18a0e85660dbc958a"),  _
  Assembly: System.Reflection.AssemblyProductAttribute("WinFormsApp4"),  _
  Assembly: System.Reflection.AssemblyTitleAttribute("WinFormsApp4"),  _
  Assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0"),  _

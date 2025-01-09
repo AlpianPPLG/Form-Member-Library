@@ -29,3 +29,4 @@ C:\Users\USER\source\repos\WinFormsApp4\WinFormsApp4\obj\Debug\net8.0-windows\re
 C:\Users\USER\source\repos\WinFormsApp4\WinFormsApp4\obj\Debug\net8.0-windows\WinFormsApp4.pdb
 C:\Users\USER\source\repos\WinFormsApp4\WinFormsApp4\obj\Debug\net8.0-windows\WinFormsApp4.genruntimeconfig.cache
 C:\Users\USER\source\repos\WinFormsApp4\WinFormsApp4\obj\Debug\net8.0-windows\ref\WinFormsApp4.dll
+C:\Users\USER\source\repos\WinFormsApp4\WinFormsApp4\obj\Debug\net8.0-windows\WinFormsApp4.sourcelink.json
